@@ -1,8 +1,32 @@
-libgdata (0.13.3-1blankon1) suroboyo; urgency=low
+libgdata (0.14.0-2blankon1) suroboyo; urgency=low
 
-  * Upload to suroboyo.
+  * Rebuild against
 
- -- Aris Febrianto <ariesfebrianto@gmail.com>  Sat, 06 Apr 2013 16:44:37 +0700
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Sun, 17 Nov 2013 13:57:16 +0700
+
+libgdata (0.14.0-2) experimental; urgency=low
+
+  * Build against G3.10 gnome-online-accounts
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 03 Nov 2013 22:58:47 +0100
+
+libgdata (0.14.0-1) unstable; urgency=low
+
+  [ Jeremy Bicha ]
+  * Update homepage
+
+  [ Michael Biebl ]
+  * New upstream release.
+  * Use dh-autoreconf --as-needed and drop 99_ltmain_as-needed.patch.
+  * Bump Standards-Version to 3.9.4. No further changes.
+
+ -- Michael Biebl <biebl@debian.org>  Fri, 30 Aug 2013 13:26:23 +0200
+
+libgdata (0.13.3-2) unstable; urgency=low
+
+  * Upload to unstable.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sun, 26 May 2013 00:38:43 +0200
 
 libgdata (0.13.3-1) experimental; urgency=low
 

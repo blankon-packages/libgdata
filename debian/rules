@@ -10,6 +10,8 @@ include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
 
 DEB_MAKE_CHECK_TARGET = check || true
 
+DEB_DH_AUTORECONF_ARGS = --as-needed
+
 LDFLAGS += -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
 
 libgdata := $(shell sed -nr 's/^Package:[[:space:]]*(libgdata[0-9]+)[[:space:]]*$$/\1/p' debian/control)
