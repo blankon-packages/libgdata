@@ -1,8 +1,26 @@
-libgdata (0.14.0-2blankon1) suroboyo; urgency=low
+libgdata (0.14.1-2blankon1) suroboyo; urgency=medium
 
-  * Rebuild against
+  * No changes, just rebuild
 
- -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Sun, 17 Nov 2013 13:57:16 +0700
+ -- Mahyuddin Idram Ahmad <dotovr@di.blankon.in>  Sat, 11 Jan 2014 21:51:46 +0700
+
+libgdata (0.14.1-2) experimental; urgency=medium
+
+  * Merge with unstable 
+  * Build against G3.10 gnome-online-accounts
+
+ -- Iain Lane <laney@debian.org>  Mon, 06 Jan 2014 11:19:18 +0000
+
+libgdata (0.14.1-1) unstable; urgency=medium
+
+  * New upstream release
+    + Fix build with recent gnome-common versions
+    + Fix build and installed header files for C++
+    + Remove deprecated function calls
+    + Fix compilation with -fstrict-aliasing
+  * Don't build-depend or depend on libsoup-gnome any more; it's not required. 
+
+ -- Iain Lane <laney@debian.org>  Mon, 06 Jan 2014 11:02:28 +0000
 
 libgdata (0.14.0-2) experimental; urgency=low
 

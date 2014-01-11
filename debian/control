@@ -6,8 +6,7 @@
 Source: libgdata
 Section: libs
 Priority: optional
-Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
-XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: Andreas Henriksson <andreas@fatal.se>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Build-Depends: cdbs (>= 0.4.41),
                debhelper (>= 8),
@@ -21,7 +20,6 @@ Build-Depends: cdbs (>= 0.4.41),
                liboauth-dev (>= 0.9.4),
                libxml2-dev,
                libsoup2.4-dev (>= 2.37.91),
-               libsoup-gnome2.4-dev (>= 2.37.91),
                libgdk-pixbuf2.0-dev,
                intltool (>= 0.40),
                gtk-doc-tools (>= 1.14),
@@ -69,7 +67,6 @@ Depends: libgdata13 (= ${binary:Version}),
          libgoa-1.0-dev (>= 3.2),
          liboauth-dev (>= 0.9.4),
          libsoup2.4-dev (>= 2.37.91),
-         libsoup-gnome2.4-dev (>= 2.37.91),
          libxml2-dev
 Suggests: libgdata-doc
 Description: Library for accessing GData webservices - development files
