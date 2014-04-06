@@ -1,3 +1,9 @@
+libgdata (0.14.1-2blankon2) tambora; urgency=medium
+
+  * BUMP libgoa-1-0 
+
+ -- Aan Yustian <aftian@localhost>  Sun, 06 Apr 2014 09:10:59 +0700
+
 libgdata (0.14.1-2blankon1) suroboyo; urgency=medium
 
   * New upstream release
